@@ -1,0 +1,16 @@
+.Sidebar-container-sidebar {
+    border: 1px solid red;
+    grid-area: s;
+    padding: 10px;
+    margin: 5px;
+}
+
+.Sidebar-container-sidebar ul {
+    padding-left: 0;
+}
+
+.Sidebar-container-sidebar ul li{
+list-style-type: none;
+padding-left: 0;
+font-size: 18px;
+}

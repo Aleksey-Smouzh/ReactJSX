@@ -1,0 +1,11 @@
+.Main-site-main {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid red;
+    grid-area: m;
+}
+
+.section {
+    padding: 10px;
+    margin: 5px;
+}

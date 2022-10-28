@@ -1,17 +1,17 @@
-import Header from './component/Header/Header';
-import './App.css';
-import Footer from './component/Footer/Footer';
+import Header from "./component/Header/Header";
+import Main from "./component/Main/Main";
+import Footer from "./component/Footer/Footer";
+import "./App.css";
+import Sidebar from "./component/Sidebar/Sidebar";
+
 function App() {
   return (
-    <div className="App">
-      
-<Header/>
+    <div className="App-container">
+      <Header />
 
-<Footer/>
-
-
-
-
+      <Main />
+     <Sidebar/>
+      <Footer />
     </div>
   );
 }
