@@ -8,7 +8,6 @@ export default function Sidebar() {
         <ul>
           {Res.map((item) => (
             <li>
-              {" "}
               <a href={item.price}>{item.title}</a>
             </li>
           ))}

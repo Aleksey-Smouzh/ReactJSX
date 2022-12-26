@@ -3,7 +3,7 @@ import Main from "./component/Main/Main";
 import Footer from "./component/Footer/Footer";
 import "./App.css";
 import Sidebar from "./component/Sidebar/Sidebar";
-
+import TestClass from "./component/Test/TestClass";
 function App() {
   return (
     <div className="App-container">
@@ -12,6 +12,7 @@ function App() {
       <Main />
      <Sidebar/>
       <Footer />
+      <TestClass/>
     </div>
   );
 }
